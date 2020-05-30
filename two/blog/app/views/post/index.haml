@@ -1,0 +1,9 @@
+%h1 Desde post blog
+%p
+  - @posts.each do |post|
+    %li
+      %b Titulo: #{post['title']}
+    %li
+      %b Descipción: #{post['description']}
+    %li
+      %b Contenido: #{post['body']}

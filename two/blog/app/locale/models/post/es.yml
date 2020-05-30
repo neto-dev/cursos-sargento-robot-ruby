@@ -1,0 +1,9 @@
+es:
+  models:
+    post:
+      name: Post
+      attributes:
+        id: ID
+        title: Titulo
+        description: Desc.
+        body: Contenido

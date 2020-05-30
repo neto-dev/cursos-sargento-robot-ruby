@@ -1,0 +1,11 @@
+es:
+  models:
+    account:
+      name: Cuentas
+      attributes:
+        id: ID
+        name: Nombre
+        surname: Apellidos
+        email: Correo
+        password: Contraseña
+        password_confirmation: Confirmar Contraseña
